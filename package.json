@@ -1,0 +1,29 @@
+{
+	"name": "@ntvr/prettier-config",
+	"version": "1.0.0",
+	"description": "Netvor's shareable config for prettier",
+	"keywords": [
+		"prettier",
+		"prettier-config",
+		"ntvr"
+	],
+	"author": "ntvr",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ntvr/prettier-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ntvr/prettier-config/issues"
+	},
+	"peerDependencies": {
+		"prettier": "^3.0.3"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.3"
+	},
+	"scripts": {
+		"test": "prettier --check .",
+		"format": "prettier --write ."
+	}
+}
